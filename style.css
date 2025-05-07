@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fffaf0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4e1d2;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    font-size: 2rem;
+    color: #8b0000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8b0000;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #d2691e;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fdf5e6;
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #8b0000;
+    margin-top: 20px;
+}
+
+#menu {
+    padding: 20px;
+    background-color: #fffaf0;
+}
+
+#menu h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #8b0000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dish {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fdf5e6;
+}
+
+.dish h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #d2691e;
+    margin: 0 0 10px;
+}
+
+.dish p {
+    margin: 0;
+}
+
+#contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4e1d2;
+}
+
+#contact h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #8b0000;
+    margin-bottom: 20px;
+}
+
+#contact button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #8b0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #d2691e;
+}
